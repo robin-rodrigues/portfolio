@@ -1,6 +1,6 @@
 # # Portfolio      
 
-![ReactJS Resume Website Template](portfolio.png?raw=true "ReactJS Resume Website Template")
+![ReactJS Resume Website Template](portfolio.PNG?raw=true "ReactJS Resume Website Template")
 
 ## <a href="https://rodrob.netlify.app/" target="_blank">LIVE DEMO</a>
 
