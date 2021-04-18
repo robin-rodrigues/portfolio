@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Computer Engineering Student 🚀 having some experience of building Web applications with JavaScript / Reactjs / Nodejs and a Machine Learning enthusiast."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/14J4el8MVNGf4y2sPOnzvtvF7WBrHjB3l/view?usp=sharing",
+    "https://drive.google.com/file/d/16069r-jZNUAa8j8JHZNBQxz3UWOkx4vE/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
