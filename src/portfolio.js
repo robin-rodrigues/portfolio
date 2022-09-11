@@ -12,7 +12,7 @@ const greeting = {
   username: "Robin Rodrigues",
   title: "Hi all, I'm Robin",
   subTitle: emoji(
-    "A passionate Computer Engineering Student 🚀 having some experience of building Web applications with JavaScript / Reactjs / Nodejs and a Machine Learning enthusiast."
+    "A passionate individual 🚀 having some experience of Software Development primarily in Java, Spring Framework, MySQL, Hibernate in an Industrial Automation domain. Being a continuous learner, I am always ready to learn new skills and make a positive contribution to the company."
   ),
   resumeLink:
     "https://drive.google.com/file/d/16069r-jZNUAa8j8JHZNBQxz3UWOkx4vE/view?usp=sharing",
@@ -22,15 +22,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Rodrob-93",
-  linkedin: "https://www.linkedin.com/in/robin-rodrigues-016a00148/",
+  github: "https://github.com/robin-rodrigues",
+  linkedin: "https://www.linkedin.com/in/robin-rodrigues-/",
   gmail: "robinrodrigues6499@gmail.com",
   //gitlab: "https://gitlab.com",
   facebook: "https://www.facebook.com/profile.php?id=100009420427179",
   //medium: "https://medium.com/@robinrodrigues6499",
   //stackoverflow: "https://stackoverflow.com/users/11224743/robin-rodrigues",
   // Instagram and Twitter are also supported in the links!
-  instagram: "https://www.instagram.com/_rodrob_/",
+  instagram: "https://www.instagram.com/iamrodrob/",
   twitter: "https://twitter.com/iamrodrob",
   display: true // Set true to display this section, defaults to false
 };
@@ -55,21 +55,21 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "java",
+      skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
     // {
     //   skillName: "sass",
     //   fontAwesomeClassname: "fab fa-sass"
@@ -79,25 +79,30 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     // {
     //   skillName: "swift",
     //   fontAwesomeClassname: "fab fa-swift"
     // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
+    
     // {
     //   skillName: "aws",
     //   fontAwesomeClassname: "fab fa-aws"
@@ -125,7 +130,7 @@ const educationInfo = {
       logo: require("./assets/images/djsce_logo.jpg"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "August 2017 - June 2021",
-      desc: "CGPA: 9.72/10",
+      desc: "CGPA: 9.75/10",
       descBullets: [
         "Learned various CS fundamental subjects such as Data Structures/Algorithms, OOPM, Java, Python, Computer Networks, ML",
         "Participated in various Hackathons, Coding contests and activities"
@@ -182,6 +187,23 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Engineer",
+      company: "eMeasurematics",
+      companylogo: require("./assets/images/emeasurematics_logo.jpg"),
+      date: "June 2021 – Present",
+      desc:
+        "",
+      descBullets: [
+        "Development of assigned modules in Core Java, Spring Framework, Hibernate, MySQL",
+        "Contributed to optimization of technical designs for maximum speed and scalability",
+        "Developed various test cases, did manual testing, and fixed issues with different modules",
+        "Automated various manual tasks by developing python & bash scripts",
+        "Deployment of various applications in Production environment",
+        "Worked remotely with US onsite team to fix various issues in Production environment and guided them on system monitoring",
+        "Participated in various Knowledge Transfer, Training activities and Documention of different modules"
+      ],
+    },
     {
       role: "Machine Learning Intern",
       company: "TheSmartBridge",
@@ -262,6 +284,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Oracle Cloud Infrastructure Foundations Associate",
+      subtitle:
+        "Oracle",
+      image: require("./assets/images/oracle_logo.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1B467DB1AE46DC00B2BCE3543E97754D513553FE359E7CD8A7D3C319E6F715A2"
+        }
+      ]
+    },
+    {
       title: "Codevita Season 9 (Global Rank: 1266)",
       subtitle:
         "Cleared Round 1 and participated in Round 2 (Global Rank: 1266)",
@@ -289,7 +324,7 @@ const achievementSection = {
         {
           name: "Projects",
           url:
-            "https://github.com/Rodrob-93/deeplearning.ai_DeepLearning_Specialization"
+            "https://github.com/robin-rodrigues/deeplearning.ai_DeepLearning_Specialization"
         }
       ]
     },
@@ -305,22 +340,22 @@ const achievementSection = {
         },
         {
           name: "Project",
-          url: "https://github.com/Rodrob-93/Android-Kotlin-Messenger"
+          url: "https://github.com/robin-rodrigues/Android-Kotlin-Messenger"
         }
       ]
     },
     
-    {
-      title: "DeepLearning.AI TensorFlow Developer Specialization",
-      subtitle: "deeplearning.ai",
-      image: require("./assets/images/deeplearning_ai_logo.jpg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/9D95DNYL6F4Z"
-        }
-      ]
-    },
+    // {
+    //   title: "DeepLearning.AI TensorFlow Developer Specialization",
+    //   subtitle: "deeplearning.ai",
+    //   image: require("./assets/images/deeplearning_ai_logo.jpg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/specialization/certificate/9D95DNYL6F4Z"
+    //     }
+    //   ]
+    // },
     
 
   ],
@@ -388,7 +423,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91 7208534988",
   email_address: "robinrodrigues6499@gmail.com"
 };
 
@@ -396,7 +430,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "iamrodrob", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {

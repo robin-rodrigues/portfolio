@@ -2,7 +2,7 @@
 
 ![ReactJS Resume Website Template](portfolio.PNG?raw=true "ReactJS Resume Website Template")
 
-## <a href="https://rodrob.netlify.app/" target="_blank">LIVE DEMO</a>
+## <a href="https://robin-rodrigues.netlify.app/" target="_blank">LIVE DEMO</a>
 
 ## Description
 This is my personal portfolio website created in ReactJS.
@@ -14,7 +14,7 @@ This is my personal portfolio website created in ReactJS.
 #### PROCEDURE:
 - Download the zip folder from Github and unzip it
 Here is the link to download zip 👉
-<a href='https://github.com/Rodrob-93/portfolio/archive/master.zip'>HERE</a>
+<a href='https://github.com/robin-rodrigues/portfolio/archive/master.zip'>HERE</a>
 - Open the folder in VS Code
 - Edit <code>src/portfolio.js</code> and add your personal details and projects
 - Open terminal in VS Code
