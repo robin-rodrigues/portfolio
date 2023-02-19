@@ -26,12 +26,12 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/robin-rodrigues-/",
   gmail: "robinrodrigues6499@gmail.com",
   //gitlab: "https://gitlab.com",
-  facebook: "https://www.facebook.com/profile.php?id=100009420427179",
+  // facebook: "https://www.facebook.com/profile.php?id=100009420427179",
   //medium: "https://medium.com/@robinrodrigues6499",
   //stackoverflow: "https://stackoverflow.com/users/11224743/robin-rodrigues",
   // Instagram and Twitter are also supported in the links!
-  instagram: "https://www.instagram.com/iamrodrob/",
-  twitter: "https://twitter.com/iamrodrob",
+  // instagram: "https://www.instagram.com/robin.e.rr/",
+  twitter: "https://twitter.com/robin_err",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -195,13 +195,14 @@ const workExperiences = {
       desc:
         "",
       descBullets: [
-        "Development of assigned modules in Core Java, Spring Framework, Hibernate, MySQL",
-        "Contributed to optimization of technical designs for maximum speed and scalability",
-        "Developed various test cases, did manual testing, and fixed issues with different modules",
-        "Automated various manual tasks by developing python & bash scripts",
-        "Deployment of various applications in Production environment",
-        "Worked remotely with US onsite team to fix various issues in Production environment and guided them on system monitoring",
-        "Participated in various Knowledge Transfer, Training activities and Documention of different modules"
+        "Development of assigned modules in Core Java, Spring, Hibernate, MySQL.",
+        "Improvements in the sync and tracking module by incorporating multi-threading, which allows data to be continuously synchronized between the mainframe and the eTrax database.",
+        "Wrote optimized MySQL stored procedures for the collection of statistical data in four different projects. Data from these statistics is used for internal analyses and reports, as well as for customer reports and dashboards.",
+        "Implemented new features and customizations using Java to improve the existing reporting framework.",
+        "Developed a generic backend module for the dashboard in Spring and Hibernate by extracting real-time statistical information in JSON format through MySQL stored procedures. This module is already in use in multiple projects simultaneously.",
+        "Utilized Spring Boot integrated with Thymeleaf to create an email automation utility that sends automated triggered and scheduled emails in elegant HTML format to internal team members and customers.",
+        "Improvements, fixes and optimizations to various stored procedures in MySQL. Developed various test cases, did manual testing and fixed issues in different Java modules.",
+        "Deployment of various applications in production environment for four different clients. Worked remotely with US onsite team to fix various issues in production environment, guided them on system monitoring and prepared RCA documents. Conducted various knowledge transfer sessions remotely with the US team, onsite training activities with freshers and documentation of different modules."
       ],
     },
     {
@@ -284,6 +285,58 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Associate Data Analyst",
+      subtitle:
+        "Oracle",
+      image: require("./assets/images/datacamp_logo.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://www.datacamp.com/certificate/DAA0012162057580"
+        }
+      ]
+    },
+    {
+      title: "Data Analyst in SQL",
+      subtitle:
+        "Oracle",
+      image: require("./assets/images/datacamp_logo.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://www.datacamp.com/statement-of-accomplishment/track/3393c39f3da8f502585b520efc1d7efcc42da560"
+        }
+      ]
+    },
+    {
+      title: "SQL (Advanced)",
+      subtitle:
+        "Oracle",
+      image: require("./assets/images/hackerrank_log.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://www.hackerrank.com/certificates/fc9451858414"
+        }
+      ]
+    },
+    {
+      title: "Javascript Algorithms and Data Structures",
+      subtitle:
+        "Oracle",
+      image: require("./assets/images/freecodecamp_logo.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://www.freecodecamp.org/certification/fcc489f5eca-25c2-4b57-ab24-4a326e314113/javascript-algorithms-and-data-structures"
+        }
+      ]
+    },
+    {
       title: "Oracle Cloud Infrastructure Foundations Associate",
       subtitle:
         "Oracle",
@@ -296,6 +349,19 @@ const achievementSection = {
         }
       ]
     },
+    // {
+    //   title: "Marketing in a Digital World",
+    //   subtitle:
+    //     "University of Illinois Urbana-Champaign",
+    //   image: require("./assets/images/illinois_logo.jpg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url:
+    //         "https://www.coursera.org/account/accomplishments/certificate/9PKJ6QE867BG"
+    //     }
+    //   ]
+    // },
     {
       title: "Codevita Season 9 (Global Rank: 1266)",
       subtitle:
@@ -303,13 +369,12 @@ const achievementSection = {
       image: require("./assets/images/tcs_logo.jpg"),
       footerLink: [
         {
-          name: "Round 1 Certificate",
+          name: "Certification",
           url:
             "https://drive.google.com/file/d/1vtJZqE3V0v8Dr61rPY32e5gB6liiGrwz/view"
         }
       ]
     },
-
     {
       title: "Deep Learning Specialization",
       subtitle:
@@ -328,7 +393,6 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "30 Days of Kotlin",
       subtitle: "Participated in 30 Days of Kotlin campaign hosted by Google Developers and submitted an Android(Kotlin) project during May-June 2020",
