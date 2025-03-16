@@ -12,10 +12,10 @@ const greeting = {
   username: "Robin Rodrigues",
   title: "Hi all, I'm Robin",
   subTitle: emoji(
-    "A passionate individual 🚀 having some experience of Software Development primarily in Java, Spring Framework, MySQL, Hibernate in an Industrial Automation domain. Being a continuous learner, I am always ready to learn new skills and make a positive contribution to the company."
+    "Software Engineer L2 with 3.8+ years of experience in Java, Spring Framework, Hibernate, and MySQL, specializing in event-driven architecture. Passionate about continuous learning and leveraging expertise to make meaningful contributions in full-time software engineering roles."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/16069r-jZNUAa8j8JHZNBQxz3UWOkx4vE/view?usp=sharing",
+    "https://drive.google.com/file/d/1TFxKoQ1KzNjKqbIC9KIki02UPjtp0HiA/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -25,13 +25,12 @@ const socialMediaLinks = {
   github: "https://github.com/robin-rodrigues",
   linkedin: "https://www.linkedin.com/in/robin-rodrigues-/",
   gmail: "robinrodrigues6499@gmail.com",
-  //gitlab: "https://gitlab.com",
+  // gitlab: "https://gitlab.com",
   // facebook: "https://www.facebook.com/profile.php?id=100009420427179",
-  //medium: "https://medium.com/@robinrodrigues6499",
-  //stackoverflow: "https://stackoverflow.com/users/11224743/robin-rodrigues",
-  // Instagram and Twitter are also supported in the links!
+  // medium: "https://medium.com/@robinrodrigues6499",
+  // stackoverflow: "https://stackoverflow.com/users/11224743/robin-rodrigues",
   // instagram: "https://www.instagram.com/robin.e.rr/",
-  twitter: "https://twitter.com/robin_err",
+  // twitter: "https://twitter.com/robin_err",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -59,63 +58,33 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "MySQL",
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fas fa-power-off"
+    },
+    {
+      skillName: "Hibernate",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "html-5",
-    //   fontAwesomeClassname: "fab fa-html5"
-    // },
-    // {
-    //   skillName: "css3",
-    //   fontAwesomeClassname: "fab fa-css3-alt"
-    // },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "ReactJS",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-atlassian"
     },
-    
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "ReactJS",
+      fontAwesomeClassname: "fab fa-react"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -128,19 +97,19 @@ const educationInfo = {
     {
       schoolName: "Dwarkadas J. Sanghvi College of Engineering, Mumbai",
       logo: require("./assets/images/djsce_logo.jpg"),
-      subHeader: "Bachelor of Engineering in Computer Science",
-      duration: "August 2017 - June 2021",
+      subHeader: "Bachelor of Engineering, Computer Engineering",
+      duration: "2017 - 2021",
       desc: "CGPA: 9.75/10",
       descBullets: [
-        "Learned various CS fundamental subjects such as Data Structures/Algorithms, OOPM, Java, Python, Computer Networks, ML",
+        "Learned various CS fundamental subjects such as Data Structures/Algorithms, OOPM, Java, Computer Networks, etc.",
         "Participated in various Hackathons, Coding contests and activities"
       ]
     },
     {
       schoolName: "Royal College of Arts, Science and Commere, Thane",
-      logo: require("./assets/images/undefined_logo.png"),
+      logo: require("./assets/images/royal_logo.jpeg"),
       subHeader: "HSC, Computer Science",
-      duration: "July 2015 - May 2017",
+      duration: "2015 - 2017",
       desc: "Percentage: 92.92%",
       descBullets: [
         "Ranked 1st in college with 92.92% in HSC board examinations",
@@ -151,12 +120,8 @@ const educationInfo = {
       schoolName: "Holy Cross Convent School, Thane",
       logo: require("./assets/images/hccs_logo.jpg"),
       subHeader: "SSC",
-      duration: "June 2002 - June 2015",
-      desc: "Percentage: 92.20%",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      duration: "2015",
+      desc: "Percentage: 92.20%"
     }
   ]
 };
@@ -167,16 +132,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "50%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "70%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "40%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Databases", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -188,49 +153,55 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Software Engineer II",
       company: "eMeasurematics",
       companylogo: require("./assets/images/emeasurematics_logo.jpg"),
       date: "June 2021 – Present",
       desc:
         "",
       descBullets: [
-        "Development of assigned modules in Core Java, Spring, Hibernate, MySQL.",
-        "Improvements in the sync and tracking module by incorporating multi-threading, which allows data to be continuously synchronized between the mainframe and the eTrax database.",
-        "Wrote optimized MySQL stored procedures for the collection of statistical data in four different projects. Data from these statistics is used for internal analyses and reports, as well as for customer reports and dashboards.",
-        "Implemented new features and customizations using Java to improve the existing reporting framework.",
-        "Developed a generic backend module for the dashboard in Spring and Hibernate by extracting real-time statistical information in JSON format through MySQL stored procedures. This module is already in use in multiple projects simultaneously.",
-        "Utilized Spring Boot integrated with Thymeleaf to create an email automation utility that sends automated triggered and scheduled emails in elegant HTML format to internal team members and customers.",
-        "Improvements, fixes and optimizations to various stored procedures in MySQL. Developed various test cases, did manual testing and fixed issues in different Java modules.",
-        "Deployment of various applications in production environment for four different clients. Worked remotely with US onsite team to fix various issues in production environment, guided them on system monitoring and prepared RCA documents. Conducted various knowledge transfer sessions remotely with the US team, onsite training activities with freshers and documentation of different modules."
+        "Leveraged extensive expertise in Java, Spring Framework, Hibernate, MySQL and event-driven architecture to develop robust applications across multiple client projects.",
+        "Strong understanding of design patterns, including DAO, DTO, and MVC, with proficiency in Creational, Structural, and Behavioral patterns to design scalable, maintainable, and efficient applications.",
+        "Utilized Spring Boot Actuator alongside the Elastic stack (ELK stack) to stream and analyze application performance metrics and logs.",
+        "Leading a dynamic database team where I mentor junior developers and conduct code reviews to uphold best practices.",
+        "Experienced in developing complex queries, routines, triggers and views in MySQL.",
+        "Optimized database performance by over 10x across the entire software ecosystem through query optimization.",
+        "Created a generic backend module for dashboards using Spring and Hibernate, extracting real-time statistical information in JSON format through MySQL routines.",
+        "Significant improvements and optimization in the existing database backup and recovery process.",
+        "Configured and managed master-slave and master-master replication to enhance data availability, ensure fault tolerance, and maintain consistency across multiple MySQL database servers.",
+        "Successfully migrated MySQL databases from version 5.6 to 8.0 for legacy client projects, ensuring data integrity and optimizing performance throughout the transition.",
+        "Developed and orchestrated ETL pipelines using Apache Airflow, automating data workflows and ensuring seamless integration of data from multiple sources into downstream systems.",
+        "Provided comprehensive end-to-end development support for applications from initial development through final rollout and post-deployment maintenance.",
+        "Good working knowledge of Git for version control and Jira for issue tracking and project management.",
+        "Participated in Agile/Scrum processes, contributing to sprint planning and reviews."
       ],
     },
-    {
-      role: "Machine Learning Intern",
-      company: "TheSmartBridge",
-      companylogo: require("./assets/images/smartbridge_logo.png"),
-      date: "May 2020 – June 2020",
-      desc:
-        "Created a model in IBM Watson Studio for Predicting Life Expectancy of a human being using the WHO dataset. Used Node-RED through IBM cloud to deploy the model.",
-      descBullets: [
-        "Implemented this topic by using various machine learning models and compared accuracy between them.",
-        "Also implemented using IBM Watson Studio's Auto AI model which returned great results.",
-        "Technologies worked on: Python, Node-RED, IBM Cloud, IBM Watson Studio."
-      ],
-    },
-    {
-      role: "Campus Ambassador Intern",
-      company: "National Engineering Olympiad",
-      companylogo: require("./assets/images/neo_logo.jpg"),
-      date: "March 2020 – April 2020",
-      desc:
-        "",
-      descBullets: [
-        "Promoted National Engineering Olympiad examinations through social media.",
-        "Helped the students with registration and verification process.",
-        "Assigned tasks to Campus Coordinators for registration of students."
-      ]
-    }
+    // {
+    //   role: "Machine Learning Intern",
+    //   company: "TheSmartBridge",
+    //   companylogo: require("./assets/images/smartbridge_logo.png"),
+    //   date: "May 2020 – June 2020",
+    //   desc:
+    //     "Created a model in IBM Watson Studio for Predicting Life Expectancy of a human being using the WHO dataset. Used Node-RED through IBM cloud to deploy the model.",
+    //   descBullets: [
+    //     "Implemented this topic by using various machine learning models and compared accuracy between them.",
+    //     "Also implemented using IBM Watson Studio's Auto AI model which returned great results.",
+    //     "Technologies worked on: Python, Node-RED, IBM Cloud, IBM Watson Studio."
+    //   ],
+    // },
+    // {
+    //   role: "Campus Ambassador Intern",
+    //   company: "National Engineering Olympiad",
+    //   companylogo: require("./assets/images/neo_logo.jpg"),
+    //   date: "March 2020 – April 2020",
+    //   desc:
+    //     "",
+    //   descBullets: [
+    //     "Promoted National Engineering Olympiad examinations through social media.",
+    //     "Helped the students with registration and verification process.",
+    //     "Assigned tasks to Campus Coordinators for registration of students."
+    //   ]
+    // }
   ]
 };
 
@@ -279,42 +250,68 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
-      title: "Associate Data Analyst",
+      title: "Associate SQL",
       subtitle:
-        "Oracle",
+        "Datacamp",
       image: require("./assets/images/datacamp_logo.jpg"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://www.datacamp.com/certificate/DAA0012162057580"
+            "https://www.datacamp.com/certificate/SQA0019307729588"
+        }
+      ]
+    }, 
+    {
+      title: "Apache Airflow Fundamentals",
+      subtitle:
+        "Astronomer",
+      image: require("./assets/images/astronomer_logo.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://www.credly.com/badges/ac5f4657-0a20-452c-93f8-ad9377aac9c6"
         }
       ]
     },
     {
-      title: "Data Analyst in SQL",
+      title: "Oracle Cloud Infrastructure 2024 Generative AI Professional",
       subtitle:
         "Oracle",
-      image: require("./assets/images/datacamp_logo.jpg"),
+      image: require("./assets/images/oracle_logo.jpg"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://www.datacamp.com/statement-of-accomplishment/track/3393c39f3da8f502585b520efc1d7efcc42da560"
+            "https://catalog-education.oracle.com/pls/certview/sharebadge?id=5393B67DBFCEA90C2CFF289944E50FC02A7880872C925B97F69FFF4FDC65FB0E"
+        }
+      ]
+    },
+    {
+      title: "Alteryx Designer Core Certification",
+      subtitle:
+        "Alteryx",
+      image: require("./assets/images/alteryx_logo.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://www.credly.com/badges/3cf6b10e-e4b7-4b8d-881f-c22dec6da433"
         }
       ]
     },
     {
       title: "SQL (Advanced)",
       subtitle:
-        "Oracle",
-      image: require("./assets/images/hackerrank_log.jpg"),
+        "Hackerrank",
+      image: require("./assets/images/hackerrank_logo.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -324,104 +321,31 @@ const achievementSection = {
       ]
     },
     {
-      title: "Javascript Algorithms and Data Structures",
+      title: "Apache Airflow DAG Authoring",
       subtitle:
-        "Oracle",
-      image: require("./assets/images/freecodecamp_logo.jpg"),
+        "Astronomer",
+      image: require("./assets/images/astronomer_logo.jpeg"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://www.freecodecamp.org/certification/fcc489f5eca-25c2-4b57-ab24-4a326e314113/javascript-algorithms-and-data-structures"
+            "https://www.credly.com/badges/1d67b07b-203b-43f6-9807-b94db432f86c"
         }
       ]
     },
     {
-      title: "Oracle Cloud Infrastructure Foundations Associate",
+      title: "Machine Learning Internship",
       subtitle:
-        "Oracle",
-      image: require("./assets/images/oracle_logo.jpg"),
+        "TheSmartBridge",
+      image: require("./assets/images/smartbridge_logo.png"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1B467DB1AE46DC00B2BCE3543E97754D513553FE359E7CD8A7D3C319E6F715A2"
+            "https://smartinternz.com/internships/certificates/e8dfff4676a47048d6f0c4ef899593dd"
         }
       ]
-    },
-    // {
-    //   title: "Marketing in a Digital World",
-    //   subtitle:
-    //     "University of Illinois Urbana-Champaign",
-    //   image: require("./assets/images/illinois_logo.jpg"),
-    //   footerLink: [
-    //     {
-    //       name: "Certification",
-    //       url:
-    //         "https://www.coursera.org/account/accomplishments/certificate/9PKJ6QE867BG"
-    //     }
-    //   ]
-    // },
-    {
-      title: "Codevita Season 9 (Global Rank: 1266)",
-      subtitle:
-        "Cleared Round 1 and participated in Round 2 (Global Rank: 1266)",
-      image: require("./assets/images/tcs_logo.jpg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url:
-            "https://drive.google.com/file/d/1vtJZqE3V0v8Dr61rPY32e5gB6liiGrwz/view"
-        }
-      ]
-    },
-    {
-      title: "Deep Learning Specialization",
-      subtitle:
-        "deeplearning.ai",
-      image: require("./assets/images/deeplearning_ai_logo.jpg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url:
-            "https://www.coursera.org/account/accomplishments/specialization/certificate/B6VV7LNSCDHA"
-        },
-        {
-          name: "Projects",
-          url:
-            "https://github.com/robin-rodrigues/deeplearning.ai_DeepLearning_Specialization"
-        }
-      ]
-    },
-    {
-      title: "30 Days of Kotlin",
-      subtitle: "Participated in 30 Days of Kotlin campaign hosted by Google Developers and submitted an Android(Kotlin) project during May-June 2020",
-      image: require("./assets/images/google_developers_logo.jpg"),
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1FELtmSRKEoYHizvqkla35ofZBnc9K63h/view"
-        },
-        {
-          name: "Project",
-          url: "https://github.com/robin-rodrigues/Android-Kotlin-Messenger"
-        }
-      ]
-    },
-    
-    // {
-    //   title: "DeepLearning.AI TensorFlow Developer Specialization",
-    //   subtitle: "deeplearning.ai",
-    //   image: require("./assets/images/deeplearning_ai_logo.jpg"),
-    //   footerLink: [
-    //     {
-    //       name: "Certification",
-    //       url: "https://www.coursera.org/account/accomplishments/specialization/certificate/9D95DNYL6F4Z"
-    //     }
-    //   ]
-    // },
-    
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -487,13 +411,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+91 7208534988",
   email_address: "robinrodrigues6499@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "iamrodrob", //Replace "twitter" with your twitter username without @
+  userName: "robin_err", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
