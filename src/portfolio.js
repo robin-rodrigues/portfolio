@@ -12,7 +12,7 @@ const greeting = {
   username: "Robin Rodrigues",
   title: "Hi all, I'm Robin",
   subTitle: emoji(
-    "Software Engineer L2 with 3.8+ years of experience in Java, Spring Framework, Hibernate, and MySQL, specializing in event-driven architecture. Passionate about continuous learning and leveraging expertise to make meaningful contributions in full-time software engineering roles."
+    "Software Developer L2 with 4 years of experience in Java, Spring Boot, Hibernate, and MySQL, specializing in event-driven architecture. Passionate about continuous learning and leveraging expertise to make meaningful contributions in full-time software engineering roles."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1TFxKoQ1KzNjKqbIC9KIki02UPjtp0HiA/view?usp=sharing",
@@ -156,39 +156,32 @@ const workExperiences = {
       role: "Software Engineer II",
       company: "eMeasurematics",
       companylogo: require("./assets/images/emeasurematics_logo.jpg"),
-      date: "June 2021 – Present",
+      date: "June 2021 – March 2025",
       desc:
         "",
       descBullets: [
-        "Leveraged extensive expertise in Java, Spring Framework, Hibernate, MySQL and event-driven architecture to develop robust applications across multiple client projects.",
-        "Strong understanding of design patterns, including DAO, DTO, and MVC, with proficiency in Creational, Structural, and Behavioral patterns to design scalable, maintainable, and efficient applications.",
-        "Utilized Spring Boot Actuator alongside the Elastic stack (ELK stack) to stream and analyze application performance metrics and logs.",
-        "Leading a dynamic database team where I mentor junior developers and conduct code reviews to uphold best practices.",
-        "Experienced in developing complex queries, routines, triggers and views in MySQL.",
-        "Optimized database performance by over 10x across the entire software ecosystem through query optimization.",
-        "Created a generic backend module for dashboards using Spring and Hibernate, extracting real-time statistical information in JSON format through MySQL routines.",
-        "Significant improvements and optimization in the existing database backup and recovery process.",
-        "Configured and managed master-slave and master-master replication to enhance data availability, ensure fault tolerance, and maintain consistency across multiple MySQL database servers.",
-        "Successfully migrated MySQL databases from version 5.6 to 8.0 for legacy client projects, ensuring data integrity and optimizing performance throughout the transition.",
-        "Developed and orchestrated ETL pipelines using Apache Airflow, automating data workflows and ensuring seamless integration of data from multiple sources into downstream systems.",
-        "Provided comprehensive end-to-end development support for applications from initial development through final rollout and post-deployment maintenance.",
-        "Good working knowledge of Git for version control and Jira for issue tracking and project management.",
-        "Participated in Agile/Scrum processes, contributing to sprint planning and reviews."
+        "Transformed a monolithic application into a scalable microservices architecture using Java, Spring Boot, Hibernate, and MySQL, reducing deployment time by 40% and improving system scalability.",
+        "Developed over 6 Spring Boot microservices with REST APIs and asynchronous messaging using ActiveMQ, boosting data throughput and responsiveness by 25%.",
+        "Implemented secure, role-based API access via Spring Security with JWT-based authentication, enhancing data protection and user authorization flow.",
+        "Utilized Spring Data JPA to streamline data persistence, reducing boilerplate DAO code by 70% and improving development efficiency.",
+        "Improved data pipeline performance by 10x through SQL query optimization, resulting in faster data availability for downstream analytics.",
+        "Configured MySQL master-slave and master-master replication setups to ensure 99.9% uptime, and led successful migration from MySQL 5.6 to 8.0 with zero data loss.",
+        "Engineered real-time ingestion of crane sensor data into InfluxDB using line protocol, enabling live monitoring dashboards for operational insights."
       ],
     },
-    // {
-    //   role: "Machine Learning Intern",
-    //   company: "TheSmartBridge",
-    //   companylogo: require("./assets/images/smartbridge_logo.png"),
-    //   date: "May 2020 – June 2020",
-    //   desc:
-    //     "Created a model in IBM Watson Studio for Predicting Life Expectancy of a human being using the WHO dataset. Used Node-RED through IBM cloud to deploy the model.",
-    //   descBullets: [
-    //     "Implemented this topic by using various machine learning models and compared accuracy between them.",
-    //     "Also implemented using IBM Watson Studio's Auto AI model which returned great results.",
-    //     "Technologies worked on: Python, Node-RED, IBM Cloud, IBM Watson Studio."
-    //   ],
-    // },
+    {
+      role: "Machine Learning Intern",
+      company: "TheSmartBridge",
+      companylogo: require("./assets/images/smartbridge_logo.png"),
+      date: "May 2020 – June 2020",
+      desc:
+        // "Created a model in IBM Watson Studio for Predicting Life Expectancy of a human being using the WHO dataset. Used Node-RED through IBM cloud to deploy the model.",
+        "",
+      descBullets: [
+        "Predicted life expectancy by experimenting with Linear Regression, Decision Tree Regression, and Random Forest Regression models achieving over 90% accuracy.",
+        "Utilized IBM Watson Studio and Auto-AI for model optimization through hyperparameter tuning and Extra-Trees Regressor, improving model performance and reducing prediction error by 15%."
+      ],
+    },
     // {
     //   role: "Campus Ambassador Intern",
     //   company: "National Engineering Olympiad",
