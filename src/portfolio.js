@@ -12,7 +12,7 @@ const greeting = {
   username: "Robin Rodrigues",
   title: "Hi all, I'm Robin",
   subTitle: emoji(
-    "Software Developer L2 with 4 years of experience in Java, Spring Boot, Hibernate, and MySQL, specializing in event-driven architecture. Passionate about continuous learning and leveraging expertise to make meaningful contributions in full-time software engineering roles."
+    "Software Developer II with 4 years of experience in Java, Spring Boot, Hibernate, and MySQL, specializing in event-driven architecture. Passionate about continuous learning and leveraging expertise to make meaningful contributions in full-time software engineering roles."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1TFxKoQ1KzNjKqbIC9KIki02UPjtp0HiA/view?usp=sharing",
