@@ -153,7 +153,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer II",
+      role: "Software Developer II",
       company: "eMeasurematics",
       companylogo: require("./assets/images/emeasurematics_logo.jpg"),
       date: "June 2021 – March 2025",
